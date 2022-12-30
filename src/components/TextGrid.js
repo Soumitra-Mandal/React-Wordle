@@ -1,40 +1,43 @@
 function TextGrid() {
+  const handleInput = (e) => {
+    console.log(e.target.value);
+  };
   return (
-    <div id="textgrid">
+    <div id="textgrid" onKeyUp={handleInput}>
       <div className="row1 row">
-        <div className="item1 item"></div>
-        <div className="item2 item"></div>
-        <div className="item3 item"></div>
-        <div className="item4 item"></div>
-        <div className="item5 item"></div>
+        <input className="item1 item" type="text" maxLength={1}></input>
+        <input className="item2 item" type="text" maxLength={1}></input>
+        <input className="item3 item" type="text" maxLength={1}></input>
+        <input className="item4 item" type="text" maxLength={1}></input>
+        <input className="item5 item" type="text" maxLength={1}></input>
       </div>
       <div className="row2 row">
-        <div className="item1 item"></div>
-        <div className="item2 item"></div>
-        <div className="item3 item"></div>
-        <div className="item4 item"></div>
-        <div className="item5 item"></div>
+        <input className="item1 item" type="text" maxLength={1}></input>
+        <input className="item2 item" type="text" maxLength={1}></input>
+        <input className="item3 item" type="text" maxLength={1}></input>
+        <input className="item4 item" type="text" maxLength={1}></input>
+        <input className="item5 item" type="text" maxLength={1}></input>
       </div>
       <div className="row3 row">
-        <div className="item1 item"></div>
-        <div className="item2 item"></div>
-        <div className="item3 item"></div>
-        <div className="item4 item"></div>
-        <div className="item5 item"></div>
+        <input className="item1 item" type="text" maxLength={1}></input>
+        <input className="item2 item" type="text" maxLength={1}></input>
+        <input className="item3 item" type="text" maxLength={1}></input>
+        <input className="item4 item" type="text" maxLength={1}></input>
+        <input className="item5 item" type="text" maxLength={1}></input>
       </div>
       <div className="row4 row">
-        <div className="item1 item"></div>
-        <div className="item2 item"></div>
-        <div className="item3 item"></div>
-        <div className="item4 item"></div>
-        <div className="item5 item"></div>
+        <input className="item1 item" type="text" maxLength={1}></input>
+        <input className="item2 item" type="text" maxLength={1}></input>
+        <input className="item3 item" type="text" maxLength={1}></input>
+        <input className="item4 item" type="text" maxLength={1}></input>
+        <input className="item5 item" type="text" maxLength={1}></input>
       </div>
       <div className="row5 row">
-        <div className="item1 item"></div>
-        <div className="item2 item"></div>
-        <div className="item3 item"></div>
-        <div className="item4 item"></div>
-        <div className="item5 item"></div>
+        <input className="item1 item" type="text" maxLength={1}></input>
+        <input className="item2 item" type="text" maxLength={1}></input>
+        <input className="item3 item" type="text" maxLength={1}></input>
+        <input className="item4 item" type="text" maxLength={1}></input>
+        <input className="item5 item" type="text" maxLength={1}></input>
       </div>
     </div>
   );

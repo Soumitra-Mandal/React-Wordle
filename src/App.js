@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header title="Wordle" />
       <div className="body">
-        <TextGrid />
+        <TextGrid nRows={5}/>
       </div>
     </div>
   );
